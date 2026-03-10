@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Piscopiello — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">MP</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-line l1"></div>
+    <div class="hero-bg-line l2"></div>
+    <div class="hero-bg-line l3"></div>
+    <div class="hero-content">
+      <div class="hero-layout">
+        <div class="hero-left">
+          <p class="hero-tag reveal">Economics & Business</p>
+          <h1 class="hero-name reveal delay-1">Michael<br/><em>Piscopiello</em></h1>
+          <p class="hero-sub reveal delay-2">Rutgers University · Class of 2026<br/>Dean's List · Tinton Falls, NJ</p>
+          <div class="hero-actions reveal delay-3">
+            <a href="#about" class="btn-primary">Learn More</a>
+            <a href="#contact" class="btn-ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap reveal delay-2">
+          <img src="linkedinphoto.jfif" alt="Michael Piscopiello" class="hero-photo" />
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint reveal delay-4">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal delay-1">
+          <h2>A detail-oriented<br/><em>economics student</em><br/>with real-world drive.</h2>
+          <p>I'm a Bachelor of Science in Economics student at Rutgers University with a minor in Business Administration, expected to graduate May 2026. I've earned a spot on the Dean's List and bring the same dedication I apply to my studies into every professional setting.</p>
+          <p>At Costco Wholesale since May 2021, I've honed my ability to communicate clearly, adapt quickly, and hold myself to a high standard — skills that translate directly into any data, operations, or business role.</p>
+          <a href="/cdn-cgi/l/email-protection#aec3c7c5cbdec7ddcdc19f9c9deec9c3cfc7c280cdc1c3" class="btn-primary">Say Hello →</a>
+        </div>
+        <div class="about-stats reveal delay-2">
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Years Professional Experience</span>
+          </div>
+          <div class="stat-card accent">
+            <span class="stat-num">2026</span>
+            <span class="stat-label">Expected Graduation</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2×</span>
+            <span class="stat-label">Dean's List Honoree</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">BS</span>
+            <span class="stat-label">Economics + Business Minor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE / PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">02 — Experience & Projects</div>
+      <h2 class="section-title reveal delay-1">Where I've put<br/><em>my skills to work.</em></h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1">
+          <div class="project-meta">
+            <span class="project-tag">Retail Operations</span>
+            <span class="project-date">May 2021 – Present</span>
+          </div>
+          <h3>Front End Associate</h3>
+          <p class="project-company">Costco Wholesale · Ocean, NJ</p>
+          <ul class="project-points">
+            <li>Operated cash register handling cash, check, and credit transactions with excellent accuracy.</li>
+            <li>Assisted customers with purchases, membership programs, and item retrieval to ensure high satisfaction.</li>
+            <li>Maintained floor stock to meet company standards and worked flexible schedules to support business needs.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Customer Service</span>
+            <span>Operations</span>
+            <span>Team Collaboration</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-meta">
+            <span class="project-tag">Academic</span>
+            <span class="project-date">2022 – 2026</span>
+          </div>
+          <h3>Economics Research & Analysis</h3>
+          <p class="project-company">Rutgers University · New Brunswick, NJ</p>
+          <ul class="project-points">
+            <li>Applied econometric methods to real-world datasets to draw actionable insights.</li>
+            <li>Studied microeconomics, macroeconomics, and business administration coursework at the Dean's List level.</li>
+            <li>Developed analytical frameworks applicable to business decision-making and strategy.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Economic Analysis</span>
+            <span>Data Analysis</span>
+            <span>Research</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-meta">
+            <span class="project-tag">Achievement</span>
+            <span class="project-date">Spring & Fall 2025</span>
+          </div>
+          <h3>Dean's List Recognition</h3>
+          <p class="project-company">Rutgers University</p>
+          <ul class="project-points">
+            <li>Earned Dean's List honors in both Spring 2025 and Fall 2025 semesters.</li>
+            <li>Demonstrated academic excellence while maintaining professional commitments at Costco Wholesale.</li>
+            <li>Balanced coursework in Economics and Business Administration to consistent top performance.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Academic Excellence</span>
+            <span>Time Management</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">03 — Skills</div>
+      <h2 class="section-title reveal delay-1">Capabilities I bring<br/><em>to the table.</em></h2>
+      <div class="skills-grid">
+        <div class="skill-item reveal delay-1">
+          <div class="skill-icon">📊</div>
+          <h4>Economic Analysis</h4>
+          <p>Applying economic theory and quantitative reasoning to interpret market conditions and business decisions.</p>
+        </div>
+        <div class="skill-item reveal delay-2">
+          <div class="skill-icon">🔍</div>
+          <h4>Data Analysis</h4>
+          <p>Extracting patterns and insights from complex datasets to support evidence-based recommendations.</p>
+        </div>
+        <div class="skill-item reveal delay-3">
+          <div class="skill-icon">💡</div>
+          <h4>Critical Thinking</h4>
+          <p>Approaching problems methodically, evaluating options, and delivering sound conclusions under pressure.</p>
+        </div>
+        <div class="skill-item reveal delay-1">
+          <div class="skill-icon">🤝</div>
+          <h4>Customer Satisfaction</h4>
+          <p>Building rapport, resolving concerns, and consistently exceeding expectations in customer-facing roles.</p>
+        </div>
+        <div class="skill-item reveal delay-2">
+          <div class="skill-icon">⏱️</div>
+          <h4>Time Management</h4>
+          <p>Prioritizing effectively to meet deadlines while balancing multiple professional and academic responsibilities.</p>
+        </div>
+        <div class="skill-item reveal delay-3">
+          <div class="skill-icon">🔄</div>
+          <h4>Adaptability</h4>
+          <p>Thriving in fast-changing environments and quickly integrating new processes, tools, or team dynamics.</p>
+        </div>
+        <div class="skill-item reveal delay-1">
+          <div class="skill-icon">👥</div>
+          <h4>Teamwork</h4>
+          <p>Collaborating across cross-functional teams to achieve shared goals with clarity and accountability.</p>
+        </div>
+        <div class="skill-item reveal delay-2">
+          <div class="skill-icon">⚙️</div>
+          <h4>Front-End Optimization</h4>
+          <p>Ensuring operational processes meet company standards to maximize throughput and customer flow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">04 — Contact</div>
+      <div class="contact-inner">
+        <div class="contact-text reveal delay-1">
+          <h2>Let's connect<br/>and build<br/><em>something great.</em></h2>
+          <p>I'm currently open to internship opportunities, entry-level positions in economics, data, or business operations, and any conversation worth having.</p>
+          <div class="contact-links">
+            <a href="/cdn-cgi/l/email-protection#9bf6f2f0feebf2e8f8f4aaa9a8dbfcf6faf2f7b5f8f4f6" class="contact-link">
+              <span class="link-icon">✉</span>
+              <span class="__cf_email__" data-cfemail="24494d4f41544d57474b151617644349454d480a474b49">[email&#160;protected]</span>
+            </a>
+            <a href="tel:7326096152" class="contact-link">
+              <span class="link-icon">📞</span>
+              (732) 609-6152
+            </a>
+            <a href="https://www.linkedin.com/in/michael-piscopiello-070a16251" target="_blank" rel="noopener" class="contact-link">
+              <span class="link-icon">in</span>
+              LinkedIn Profile
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-2" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message →</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2025 Michael Piscopiello</span>
+      <span>Rutgers University · Economics '26</span>
+      <a hre
